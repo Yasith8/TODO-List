@@ -1,3 +1,4 @@
+//get data from website
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
@@ -17,6 +18,7 @@ function addTodo(event) {
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
 
+    //Local Storage
     saveLocalTodos(todoInput.value);
 
     const completedButton = document.createElement("button");
