@@ -10,7 +10,6 @@ body {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
-
 header {
     font-size: 1.5rem;
 }
@@ -32,6 +31,7 @@ form button {
     background: white;
     border-radius: 2rem;
 }
+ 
 
 form button {
     color: greenyellow;
